@@ -190,7 +190,35 @@ p {
 
     padding-top: 50px;
 }
+.thumbnail {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 0 auto;
+}
+a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #ededed;
+    text-align: right;
+}
 
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+.items {
+    width: 30%;
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: left;
+    margin-left: 1%;
+}
 .about-iphone img {
  margin-top: 8px;    
 }
@@ -290,6 +318,9 @@ p {
     color: black;
     font-weight: 900;
 }
+h4{
+    color: black;
+}
 
 .testimonial-caption h4 span {
     
@@ -343,6 +374,7 @@ p {
     line-height: 25px;
 }
 .feature-iphone img {
+    padding-top: 200px;
     width: 100%;
 }
 .right-feature-item {
